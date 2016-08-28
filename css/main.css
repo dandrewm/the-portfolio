@@ -71,7 +71,6 @@ nav{
     background-color:#F54F29;
     position:relative;
 
-    /*Content */
 
 }
 
@@ -126,6 +125,7 @@ i:hover{
 .img-info{
     width: 100px;
     cursor: pointer;
+    display: inline;
 }
 .pop-up{
     background-color: red;
@@ -149,3 +149,13 @@ i:hover{
 
 }
 
+.second-right-container{
+    /*width: 640px;*/
+    /*height: 191px;*/
+    /*background-color: blue;*/
+}
+
+.a-padding{
+    position: relative;
+    top: -22px;
+}

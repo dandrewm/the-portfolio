@@ -5,6 +5,7 @@
 //$('.third-right-container').css('height', thirdRow);
 
 
+
 $(document).ready(function(){
     $('.img-info').click(function(){
         $('.pop-up').toggleClass('is-visible')
