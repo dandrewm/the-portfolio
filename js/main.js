@@ -7,7 +7,7 @@
 
 
 $(document).ready(function(){
-    $('.img-info').click(function(){
+    $('.cuts-logo').click(function(){
         $('.pop-up').toggleClass('is-visible')
     });
 
