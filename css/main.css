@@ -80,23 +80,28 @@ nav{
 .left-container{
     background-color:#F54F29;
     position:relative;
+    height: 300px;
 
 
 }
 
 .right-container{
     padding-top: 25px;
+    height: 300px;
 }
 .third-left-container{
     background-color: #CFCDA3;
+    height: 300px;
 
 }
 .third-right-container{
     background-color:#172F56;
     padding:20px;
+    height: 300px;
 }
 .second-left-container{
     background-color:#2D2B2B ;
+    height: 500px;
 }
 span{
     list-style: none;
@@ -161,7 +166,6 @@ i:hover{
 }
 
 .second-right-container{
-    width: 640px;
     height: 500px;
     padding:0;
 }
