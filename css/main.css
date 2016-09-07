@@ -35,7 +35,7 @@ a{
 }
 
 a:hover{
-    color:#F54F29;
+    color:#b2c0cb;
     text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ a:hover{
 
 
 .test{
-    background: url("https://hd.unsplash.com/photo-1468324187476-c4e804213545")  50% 500px fixed;
+    background: url("../img/Ocean.jpg") 50% 500px fixed;
     background-size: cover;
 }
 
@@ -72,7 +72,7 @@ nav{
 /*Content */
 
 .left-container{
-    background-color:#F54F29;
+    background-color:#6da3c7;
     position:relative;
     height: 300px;
 
@@ -84,7 +84,7 @@ nav{
     height: 300px;
 }
 .third-left-container{
-    background-color: #CFCDA3;
+    background-color: #035378;
     height: 300px;
 
 }
@@ -94,7 +94,7 @@ nav{
     height: 300px;
 }
 .second-left-container{
-    background-color:#2D2B2B ;
+    background-color:#b2c0cb ;
     height: 500px;
 }
 span{
