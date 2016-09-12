@@ -37,7 +37,7 @@ a{
 }
 
 a:hover{
-    color:black;
+    color:#ECA8A1;
     text-decoration: none;
 }
 
@@ -45,14 +45,13 @@ a:hover{
 
 .header{
     background-color: #172F56;
-    /*height: 170px;*/
-    /*padding-bottom: 0;*/
+
     padding: 90px;
 }
 
 
 .test{
-    background: url("../img/Ocean.jpg") 50% 500px fixed;
+    background: url("../img/Top-of-page.jpg") 50% 500px fixed;
     background-size: cover;
 }
 
@@ -148,15 +147,7 @@ i:hover{
     transition:  1s;
 }
 
-.is-hidden{
-    opacity: 0;
-    visibility: hidden;
-}
-.is-visible{
-    opacity: 1;
-    visibility: visible;
 
-}
 
 .second-right-container{
     height: auto;
@@ -188,17 +179,16 @@ i:hover{
     top: -22px;
 }
 
+/*transition over image*/
 
 .box {
-    /*cursor: pointer;*/
-    /*height: 300px;*/
+
     position: relative;
     overflow: hidden;
-    /*width: 400px;*/
+
 }
 
 .box .overbox {
-    /*background-color: #304562;*/
     position: absolute;
     top: 0;
     left: 0;
@@ -210,9 +200,7 @@ i:hover{
     -ms-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
     opacity: 0;
-    /*width: 360px;*/
-    /*height: 240px;*/
-    /*padding: 130px 20px;*/
+
 }
 
 .box:hover .overbox { opacity: 1; }
@@ -243,7 +231,7 @@ i:hover{
 }
 
 .box .tagline {
-    font-size: 0.8em;
+    font-size: 11px;
     opacity: 0;
     transition-delay: 0.2s;
     transition-duration: 0.2s;
@@ -253,13 +241,13 @@ i:hover{
 .box:focus .tagline {
     opacity: 1;
     transform: translateX(0px);
+    padding-left: 14px;
     -webkit-transform: translateX(0px);
+
 }
 
-.tagline.overtext {
-    padding-left: 14px;
-}
 
 .title.overtext{
     padding-left: 14px;
 }
+/*end of transition*/
