@@ -180,7 +180,6 @@ i:hover{
 }
 
 /*transition over image*/
-
 .box {
 
     position: relative;
@@ -245,8 +244,6 @@ i:hover{
     -webkit-transform: translateX(0px);
 
 }
-
-
 .title.overtext{
     padding-left: 14px;
 }
