@@ -8,7 +8,7 @@
 
 $(document).ready(function(){
     $('.cuts-logo').click(function(){
-        $('.pop-up').toggleClass('is-visible')
+        $('.pop-up').toggleClass('is-visible');
     });
 
     $('.scroll-to').click(function(event){
